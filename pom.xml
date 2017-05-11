@@ -16,7 +16,7 @@
 			<groupId>io.netty</groupId>
 			<artifactId>netty-all</artifactId>
 			<!-- <version>4.1.6.Final</version> -->
-			<version>5.0.0.Alpha2</version>
+			<version>5.0.0.Alpha1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.msgpack</groupId>
@@ -24,9 +24,19 @@
 			<version>0.6.12</version>
 		</dependency>
 		<dependency>
-			<groupId>com.luhuiguo</groupId>
-			<artifactId>chinese-utils</artifactId>
-			<version>1.0</version>
+			<groupId>com.google.protobuf</groupId>
+			<artifactId>protobuf-java</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.marshalling</groupId>
+			<artifactId>jboss-marshalling</artifactId>
+			<version>1.4.11.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.marshalling</groupId>
+			<artifactId>jboss-marshalling-serial</artifactId>
+			<version>1.4.11.Final</version>
 		</dependency>
 	</dependencies>
 </project>
